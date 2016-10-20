@@ -1,6 +1,7 @@
 <?php
 
 # Get environment variable DATABASE_URL
+# Example: postgres://user:password@somedomain.com:5432/database_name
 $db_url = getenv("DATABASE_URL");
 echo ">> DATABASE_URL: $db_url\n\n";
 
